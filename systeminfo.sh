@@ -9,6 +9,6 @@ echo "Hardware Type: $(uname -p)"
 
 echo "System Name: $( uname -a |cut -d " " -f2)"
 
-echo "CPU: $(lscpu | grep "Model name")
+echo "CPU: $(lscpu | grep "Model name")"
 
 echo -e "RAM: \n $(free -h)"
